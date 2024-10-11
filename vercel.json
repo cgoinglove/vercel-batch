@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/YouTube Shorts Generator with GPT",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
