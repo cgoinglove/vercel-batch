@@ -5,6 +5,7 @@
 
 ## 소개
 [Go Demo Site](https://batch-ruddy.vercel.app/)
+<br/>
 [Vercel](https://vercel.com/docs)와 [Next.js](https://nextjs.org/)를 기반으로 한 배치 작업 관리 애플리케이션입니다. `이메일 분류`, `GPT를 활용한 유튜브 콘텐츠 생성` 등 다양한 Job을 생성하고, [Vercel Cron](https://vercel.com/docs/cron-jobs)을 이용해 주기적으로 실행할 수 있습니다.
 
 ## **주요 기능**
