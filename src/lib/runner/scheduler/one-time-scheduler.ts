@@ -1,35 +1,35 @@
-import { Chain } from '@/lib/chain';
+import { Chain } from '@/lib/chain'
 
 export class OneTimeScheduler implements Scheduler {
-  private active: boolean = false;
-  private canExecute: boolean = true;
-  private nextRunTime?: number;
-  private timerId?: ReturnType<typeof setTimeout>;
+  private active: boolean = false
+  private canExecute: boolean = true
+  private nextRunTime?: number
+  private timerId?: ReturnType<typeof setTimeout>
   constructor(private delay: number = 0) {}
 
   start(execute: () => any): void {
-    if (!this.canExecute) return;
-    this.active = true;
-    this.nextRunTime = Date.now() + this.delay;
+    if (!this.canExecute) return
+    this.active = true
+    this.nextRunTime = Date.now() + this.delay
     this.timerId = setTimeout(() => {
-      this.canExecute = false;
+      this.canExecute = false
       Chain(() => execute())
         .finally(() => {
-          this.active = false;
+          this.active = false
         })
-        .apply();
-    }, this.delay);
+        .apply()
+    }, this.delay)
   }
 
   stop(): void {
-    clearTimeout(this.timerId);
-    this.active = false;
+    clearTimeout(this.timerId)
+    this.active = false
   }
 
   isActive(): boolean {
-    return this.active;
+    return this.active
   }
   timeToNextRun() {
-    return !this.active ? undefined : this.nextRunTime! - Date.now();
+    return !this.active ? undefined : this.nextRunTime! - Date.now()
   }
 }

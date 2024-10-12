@@ -3,7 +3,7 @@
  */
 export class HistoryService {
   saveHistory(history: JOBStatus, executor?: string): Promise<void> {
-    return Promise.resolve();
+    return Promise.resolve()
   }
   queryHistory(id: string): Promise<JobHistory[]> {
     return Promise.resolve([
@@ -27,9 +27,7 @@ export class HistoryService {
             finishedAt: 1728404490391,
             duration: 30030,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -37,9 +35,7 @@ export class HistoryService {
             finishedAt: 1728404520422,
             duration: 30031,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -90,9 +86,7 @@ export class HistoryService {
             finishedAt: 1728405090311,
             duration: 30029,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -100,9 +94,7 @@ export class HistoryService {
             finishedAt: 1728405120342,
             duration: 30030,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -147,9 +139,7 @@ export class HistoryService {
             finishedAt: 1728406290475,
             duration: 30017,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -157,9 +147,7 @@ export class HistoryService {
             finishedAt: 1728406320492,
             duration: 30017,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -204,9 +192,7 @@ export class HistoryService {
             finishedAt: 1728407490492,
             duration: 30002,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -214,9 +200,7 @@ export class HistoryService {
             finishedAt: 1728407520492,
             duration: 30000,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -261,9 +245,7 @@ export class HistoryService {
             finishedAt: 1728408690457,
             duration: 30001,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -271,9 +253,7 @@ export class HistoryService {
             finishedAt: 1728408720458,
             duration: 30001,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -318,9 +298,7 @@ export class HistoryService {
             finishedAt: 1728409890557,
             duration: 30001,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -328,9 +306,7 @@ export class HistoryService {
             finishedAt: 1728409920558,
             duration: 30000,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -375,9 +351,7 @@ export class HistoryService {
             finishedAt: 1728410490300,
             duration: 30003,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -385,9 +359,7 @@ export class HistoryService {
             finishedAt: 1728410520310,
             duration: 30009,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -432,9 +404,7 @@ export class HistoryService {
             finishedAt: 1728411090302,
             duration: 30020,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -442,9 +412,7 @@ export class HistoryService {
             finishedAt: 1728411120331,
             duration: 30029,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -489,9 +457,7 @@ export class HistoryService {
             finishedAt: 1728411690303,
             duration: 30029,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -499,9 +465,7 @@ export class HistoryService {
             finishedAt: 1728411720312,
             duration: 30008,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -546,9 +510,7 @@ export class HistoryService {
             finishedAt: 1728412890522,
             duration: 30001,
             name: 'Video Generation',
-            logs: [
-              '"Generating YouTube Shorts video from the GPT-generated content."',
-            ],
+            logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
           },
           {
             status: 'SUCCESS',
@@ -556,9 +518,7 @@ export class HistoryService {
             finishedAt: 1728412920523,
             duration: 30001,
             name: 'Retry on Failure',
-            logs: [
-              '"Retrying video generation if the initial attempt failed."',
-            ],
+            logs: ['"Retrying video generation if the initial attempt failed."'],
           },
           {
             status: 'SUCCESS',
@@ -583,6 +543,6 @@ export class HistoryService {
         executor: 'cron',
         id: '4fbe64ef-9093-4ba6-a308-4c9162762061',
       },
-    ] as JobHistory[]);
+    ] as JobHistory[])
   }
 }

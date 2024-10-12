@@ -1,7 +1,7 @@
-const READY = 'READY';
-const FAIL = 'FAIL';
-const SUCCESS = 'SUCCESS';
-const RUNNING = 'RUNNING';
+const READY = 'READY'
+const FAIL = 'FAIL'
+const SUCCESS = 'SUCCESS'
+const RUNNING = 'RUNNING'
 
 export const STATUS = {
   READY,
@@ -12,16 +12,16 @@ export const STATUS = {
   ready(): ReadyStatus {
     return {
       status: READY,
-    };
+    }
   },
   start(): RunningStatus {
     return {
       startedAt: Date.now(),
       status: RUNNING,
-    };
+    }
   },
   fail(status: RunningStatus, error: any): FailStatus {
-    const finishedAt = Date.now();
+    const finishedAt = Date.now()
     return {
       status: FAIL,
       startedAt: status.startedAt,
@@ -33,15 +33,15 @@ export const STATUS = {
         message: error?.message,
         name: error?.name,
       },
-    };
+    }
   },
   success(status: RunningStatus): SuccessStatus {
-    const finishedAt = Date.now();
+    const finishedAt = Date.now()
     return {
       status: SUCCESS,
       startedAt: status.startedAt,
       finishedAt,
       duration: finishedAt - status.startedAt,
-    };
+    }
   },
-};
+}

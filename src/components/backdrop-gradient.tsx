@@ -1,5 +1,5 @@
-"use client";
-import style from "./backdrop-gradient.module.scss";
+'use client'
+import style from './backdrop-gradient.module.scss'
 
 export default function BackdropGradient() {
   return (
@@ -12,5 +12,5 @@ export default function BackdropGradient() {
         <div className={style.g5}></div>
       </div>
     </div>
-  );
+  )
 }

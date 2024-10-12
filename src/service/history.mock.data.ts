@@ -19,9 +19,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728404490391,
         duration: 30030,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -80,9 +78,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728405090311,
         duration: 30029,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -135,9 +131,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728406290475,
         duration: 30017,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -190,9 +184,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728407490492,
         duration: 30002,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -245,9 +237,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728408690457,
         duration: 30001,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -300,9 +290,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728409890557,
         duration: 30001,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -355,9 +343,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728410490300,
         duration: 30003,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -410,9 +396,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728411090302,
         duration: 30020,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -465,9 +449,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728411690303,
         duration: 30029,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -520,9 +502,7 @@ export const historyMockData: JobHistory[] = [
         finishedAt: 1728412890522,
         duration: 30001,
         name: 'Video Generation',
-        logs: [
-          '"Generating YouTube Shorts video from the GPT-generated content."',
-        ],
+        logs: ['"Generating YouTube Shorts video from the GPT-generated content."'],
       },
       {
         status: 'SUCCESS',
@@ -555,4 +535,4 @@ export const historyMockData: JobHistory[] = [
     executor: 'cron',
     id: '4fbe64ef-9093-4ba6-a308-4c9162762061',
   },
-] as JobHistory[];
+] as JobHistory[]
